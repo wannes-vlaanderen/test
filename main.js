@@ -84,8 +84,8 @@ function createPopup(currentFeature) {
 function sortByDistance(selectedPoint) {
   const options = { units: 'miles' };
   let data;
-  if (filteredGeojson.features.length > 0) {
-    data = filteredGeojson;
+  if (filteredGeoJSON.features.length > 0) {
+    data = filteredGeoJSON;
   } else {
     data = geojsonData;
   }
