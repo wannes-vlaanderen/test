@@ -40,7 +40,7 @@ const map = new mapboxgl.Map({
   center: config.center,
   zoom: config.zoom,
   transformRequest: transformRequest,
-  attrubutionControl: false
+  attributionControl: false
 });
 
 map.addControl(new Legenda(config.legende), "top-right")
