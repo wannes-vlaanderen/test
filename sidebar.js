@@ -42,11 +42,12 @@ function createSidebar() {
   div1.appendChild(div2)
   
   const map = document.getElementById('map')
-  map.parentNode.removeChild(map)
+  const parent = map.parentNode
+  parent.removeChild(map)
   map.classList.add('flex-child', 'flex-child--grow', 'w-auto', 'viewport-full-ml', 'viewport-twothirds')
   div1.appendChild(map)
   
-  document.body.appendChild(div1)
+  parent.appendChild(div1)
 }
 
 function buildLocationList(locationData) {
