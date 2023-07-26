@@ -78,6 +78,9 @@ function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
   /** Check if there is already a popup on the map and if so, remove it */
   if (popups[0]) popups[0].remove();
+  console.log(currentFeature.properties[config.popupInfo2]);
+  console.log(currentFeature.properties);
+  console.log(config.popupInfo2);
   new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML(`<h3 style="font-weight:700;font-size:18;">${currentFeature.properties[config.popupInfo]}</h3><br><p>${currentFeature.properties[config.popupInfo3]}</p><br><a href"${currentFeature.properties[config.popupInfo2]}">Meer info</a>`)
