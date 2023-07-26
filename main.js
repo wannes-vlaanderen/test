@@ -7,6 +7,7 @@ config = {
   popupInfo: ['HuidigeTitel'],
   popupInfo2: ['Link'],
   popupInfo3: ['Description'],
+  tabTitle: "Gebiedsprogramma Poort-Limburg",
   // sidebar.js
   title: 'Gebiedsprogramma\nPoort-Limburg',
   description: 'Aan te vullen',
