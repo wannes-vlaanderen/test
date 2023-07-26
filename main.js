@@ -85,7 +85,7 @@ function createPopup(currentFeature) {
   h3.innerText = currentFeature.properties[config.popupInfo];
   let br = document.createElement("br");
   let content = document.createElement("p");
-  content.innerText = currentFeature.properties[config.popupInfo3];
+  content.innerHTML = currentFeature.properties[config.popupInfo3];
   let br_again = document.createElement("br");
   let link = document.createElement("a");
   link.href = currentFeature.properties[config.popupInfo2];
