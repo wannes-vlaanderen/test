@@ -29,8 +29,8 @@
 }
 
 .listings .item {
-  font: 14px/18px 'Flanders Art Sans Light', Arial, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: 400;
   color: #333332;
   word-wrap: break-word;
   text-decoration: none;
@@ -39,8 +39,8 @@
 }
 
 .listings .item:last-child {
-  font: 14px/18px 'Flanders Art Sans Light', Arial, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: 400;
   border-bottom: none;
 }
 
