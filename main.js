@@ -31,6 +31,8 @@ const title = document.getElementById('title');
 if (title) {title.innerText = config.title;}
 const description = document.getElementById('description');
 if (description) {description.innerText = config.description;}
+const tabTitle = document.getElementById('tabtitle');
+tabTitle.innerText = config.tabTitle
 
 mapboxgl.accessToken = config.accessToken;
 
@@ -46,7 +48,7 @@ const map = new mapboxgl.Map({
 map.addControl(new Legenda(config.legende), "top-right")
 map.addControl(new LogoVlaanderen(), "top-left")
 map.addControl(new mapboxgl.AttributionControl({
-  customAttribution: "<a href='https://vlaanderen.be'>Vlaamse Overheid</a>"
+  customAttribution: "<a href="https://vlaanderen.be">Vlaamse Overheid</a>"
 }))
 
 let geoJSONData = {};
