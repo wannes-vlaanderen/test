@@ -90,6 +90,7 @@ function createPopup(currentFeature) {
   let link = document.createElement("a");
   link.href = currentFeature.properties[config.popupInfo2];
   link.innerText = "Meer info";
+  link.target = "_blank";
   
   div.appendChild(h3);
   div.appendChild(br);
