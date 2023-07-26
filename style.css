@@ -29,7 +29,7 @@
 }
 
 .listings .item {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
   color: #333332;
   word-wrap: break-word;
@@ -39,7 +39,7 @@
 }
 
 .listings .item:last-child {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
   border-bottom: none;
 }
