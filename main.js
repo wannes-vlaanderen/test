@@ -49,7 +49,7 @@ const map = new mapboxgl.Map({
 map.addControl(new Legenda(config.legende), "top-right")
 map.addControl(new LogoVlaanderen(), "top-left")
 map.addControl(new mapboxgl.AttributionControl({
-  customAttribution: "<a href='https://vlaanderen.be'>Vlaamse Overheid</a>"
+  customAttribution: "<a href='https://vlaanderen.be' target='_blank'>Vlaamse Overheid</a>"
 }))
 
 let geoJSONData = {};
