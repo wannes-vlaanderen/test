@@ -48,9 +48,8 @@
     display: inline-block;
     width: 100%;
     color: #333332;
-    font: 14px/18px 'Flanders Art Sans Light', Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 400;
     margin-top: 5px;
     text-decoration: none;
 }
